@@ -1,0 +1,122 @@
+
+a:link,a:visited
+{
+    color: black;
+    text-decoration: none;
+}
+.hide
+{
+    display: none;
+}
+.disp:hover .hide
+{
+    display: block;
+}
+.dropdown-menu li{
+    padding: 5px;
+}
+#image1:hover
+{
+    transform: scale(1.1,1.1);
+    transition-duration: 2s;
+}
+#image2:hover
+{
+    transform: scale(1.1,1.1);
+    transition-duration: 2s;
+}
+#image3:hover
+{
+    transform: scale(1.1,1.1);
+    transition-duration: 2s;
+}
+.show:hover .hide
+{
+    display: block;
+}
+.time
+{
+    height: 40px;
+    width: 40px;
+    margin-left: 5px;  
+}
+.div1
+{
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 60px;   
+}
+.cardimg:hover
+{
+    transform: scale(1.1,1.1);
+    transition-duration: 2s;
+}
+.update
+{
+    background-image: url('images/newsletter-parallax.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    text-align: center;
+    padding: 100px;   
+}
+input[type="email"]
+{
+    width: 100px;
+    
+}
+.contact
+{
+    height: 200px;
+    background-image: url('images/bredcumb.webp');
+    text-align: center;
+    padding: 75px;
+}
+.breadcrumb
+{
+    justify-content: center;
+}
+.accordion
+{
+    outline: none;
+}
+.div1
+{
+    height: 400px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 30px;
+}
+.div2
+{
+    height: 950px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 30px;
+}
+.div3
+{
+    height: 420px;
+    width: 250px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 20px;
+    line-height: 30px;
+}
+.btn-dark:hover
+{
+    opacity: 0.5;
+}
+.circleclr
+{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin: 3px;
+    display: inline-block;    
+    border:1px solid gray;
+}
